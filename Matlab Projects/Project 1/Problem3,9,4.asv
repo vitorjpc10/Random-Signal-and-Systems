@@ -1,0 +1,9 @@
+function averageCost(x)
+    for index=1:max(size(x)),
+        cost(index) = 10.5 * x(index) - 0.5 * x(index) ^2;
+    else
+        cost(index) = 50;
+    end;
+end;
+
+mean
